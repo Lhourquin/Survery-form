@@ -1,6 +1,36 @@
-.inputNumber:valid {
-    border-color: green;
+body{
+    background: linear-gradient(60deg,blue,red);
+    color: #ffffff;
 }
-.inputNumber:invalid{
-    border-color:red;
+h1{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+fieldset{
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 50%;
+}
+input, textarea, button, select{
+    margin: 1%;
+
+}
+ul{
+    
+    list-style:none;
+}
+
+input, select{
+    height: 25px;
+
+  }
+
+button{
+    height: 2.3rem;
 }

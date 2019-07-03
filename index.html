@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
-    <title>Survery Form</title>
+    <title>Survey Form</title>
 </head>
 <body>
-    <h1 id="title">Survery Form</h1>
-    <p id="description">Do you want to know what it is</p>
-    <form id="survey-form" action="">
+    <h1 id="title">Survey Form</h1>
+    <fieldset>
+      <p id="description">Do you want to know what it is</p>
+      <form id="survey-form" action="">
         <label id="name-label" for="name">Name :</label>
         <input id="name" type="text" placeholder="Enter your name" required>
         <label id="number-label" for="number">Age :</label>
-        <input id="number" type="number" min="0" max="100" placeholder="Enter your number" required>
+        <input id="number" type="number" min="0" max="100" placeholder="Enter your age" required>
         <label id="email-label" for="email">Email :</label>
         <input id="email" type="email" placeholder="Enter your email" required>
         <label for="select">Option :</label>
@@ -35,13 +36,11 @@
                   <ul id="gender">
                       <li>
                           <label for="women">
-                        <input id="women" type="checkbox" value="women">Women
-                    </label>
+                        <input id="women" type="checkbox" value="women">Women</label>
                       </li>
                       <li>
                          <label for="men">
-                          <input id="men" type="checkbox" value="men"> Men
-                        </label>
+                          <input id="men" type="checkbox" value="men">Men</label>
                       </li>
                   </ul>
               </label>
@@ -49,6 +48,8 @@
               <textarea name="message" id="message" cols="30" rows="10"></textarea>
               <button id="submit">Submit</button>
     </form>
+    </fieldset>
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="index.js"></script>
 </body>
