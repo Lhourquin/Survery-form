@@ -1,0 +1,6 @@
+.inputNumber:valid {
+    border-color: green;
+}
+.inputNumber:invalid{
+    border-color:red;
+}
